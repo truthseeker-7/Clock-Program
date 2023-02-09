@@ -13,8 +13,8 @@ body{
 }
 
 .container{
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     background: white;
     border-radius: 50%;
     position: relative;
@@ -25,26 +25,26 @@ body{
     height:170px;
     display:flex;
     position:absolute;
-    top:10px;
-    left:100px;
+    top:50px;
+    left:115px;
 }
 
 .minute{
     width:4px;
-    height:170px;
+    height:180px;
     display:flex;
     position:absolute;
-    top:10px;
-    left:100px;
+    top:45px;
+    left:115px;
 }
 
 .hour{
     width: 4px;
-    height:130px;
+    height:140px;
     display:flex;
     position:absolute;
-    top:30px;
-    left:100px;
+    top:65px;
+    left:115px;
 }
 
 
@@ -55,4 +55,33 @@ body{
     position: absolute;
     top:50;
     left:50;
+}
+
+.number{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:slateblue;
+}
+
+.twelve{
+    position: absolute;
+    left:105px;
+}
+
+.three{
+    position: absolute;
+    left:220px;
+    top:120px;  
+}
+
+.nine{
+    position: absolute;
+    left:10px;
+    top:120px;  
+}
+
+.six{
+    position: absolute;
+    left:120px;
+    top:210px;  
 }

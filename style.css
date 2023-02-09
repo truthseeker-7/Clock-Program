@@ -15,9 +15,10 @@ body{
 .container{
     width:250px;
     height:250px;
-    background: white;
+    background-color:#ddd;
     border-radius: 50%;
     position: relative;
+    box-shadow: 5px 5px 6px 6px rgba(0,0,0,0.1);
 }
 
 .second{
@@ -25,7 +26,7 @@ body{
     height:170px;
     display:flex;
     position:absolute;
-    top:50px;
+    top:30px;
     left:115px;
 }
 
@@ -34,7 +35,7 @@ body{
     height:180px;
     display:flex;
     position:absolute;
-    top:45px;
+    top:25px;
     left:115px;
 }
 
@@ -43,7 +44,7 @@ body{
     height:140px;
     display:flex;
     position:absolute;
-    top:65px;
+    top:45px;
     left:115px;
 }
 
@@ -85,3 +86,4 @@ body{
     left:120px;
     top:210px;  
 }
+

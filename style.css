@@ -10,6 +10,18 @@ body{
     height:100vh;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+
+
+h1{
+    position:absolute;
+    top:200px;
+    font-size: 48px;
+    font-family: sans-serif;
+    color:white;
+    
 }
 
 .container{
@@ -20,6 +32,8 @@ body{
     position: relative;
     box-shadow: 5px 5px 6px 6px rgba(0,0,0,0.1);
 }
+
+
 
 .second{
     width:2px;
